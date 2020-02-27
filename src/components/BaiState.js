@@ -1,13 +1,15 @@
 import React, {Component} from 'react';
 
+  var title ="Bai hoc State";
+
 class BaiState extends Component {
       constructor(props){
           super(props)
-          this.state = {"show_technologies": false}
+          this.state = {show_technologies: false}
           // this.see_our_technologies = this.see_our_technologies.bind(this);
       }
       see_our_technologies =()=>{
-          this.setState({"show_technologies": true})
+          this.setState({show_technologies: !this.state.show_technologies})
       }
       render(){
           console.log(this.state)
@@ -30,8 +32,7 @@ class BaiState extends Component {
           }
           return (
               <div style={style}>
-                  <img src={this.props.img_url} height="250px"/>
-                  <h1>{this.props.title}</h1>
+                  <h1>{title}</h1>
                   {this.state.show_technologies ?
                       <p>
                           <span style={tech}>Python</span>
@@ -40,9 +41,11 @@ class BaiState extends Component {
                           <span style={tech}>ReactJS</span>
                           <span style={tech}>Angular</span>
                           <span style={tech}> and More</span>
+                          <br/><br/>
+                          <button className="btn btn-success" onClick={this.see_our_technologies}>Click chuyen State</button>
                       </p>
                       :
-                      <button className="btn btn-success" onClick={this.see_our_technologies}>Click to see Our Technologies</button>
+                      <button className="btn btn-success" onClick={this.see_our_technologies}>Click chuyen State</button>
                   }
               </div>
           );

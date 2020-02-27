@@ -31,11 +31,6 @@ class Product extends Component {
             id :2, 
             name : 'hien1',
             tuoi: 25
-        },
-         {
-            id :3, 
-            name : 'hien2',
-            tuoi: 26
         }
         ];
         var showUsers = users.map((user, index)=> {
@@ -49,8 +44,9 @@ class Product extends Component {
         })
     return (
     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h1>Bai Component</h1>
         <div className="thumbnail">
-            <img src="https://cdn.fptshop.com.vn/Uploads/Originals/2019/2/21/636863636051023338_ss-galaxy-s10-plus-den-1.png" alt="" />
+            <img src="1https://cdn.fptshop.com.vn/Uploads/Originals/2019/2/21/636863636051023338_ss-galaxy-s10-plus-den-1.png" alt="" />
             <div className="caption">
                 {this.showProduct(product)}
                 <br/>

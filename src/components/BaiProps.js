@@ -3,7 +3,7 @@ import BaiProps1 from './BaiProps1';
 
 class Bai_Props extends Component {
   clickme(){
-    alert('Click Me! Event Handle')
+    alert('Click Me! Bai hoc Event Handle')
   }
   luusanpham=()=>{
     alert(this.refs.name_sp.value);
@@ -15,42 +15,42 @@ class Bai_Props extends Component {
           name: "Iphone 11",
           gia: "5000000",
           status: true,
-          img:"https://cdn.fptshop.com.vn/Uploads/Originals/2019/2/21/636863636051023338_ss-galaxy-s10-plus-den-1.png"
+          img:"1https://cdn.fptshop.com.vn/Uploads/Originals/2019/2/21/636863636051023338_ss-galaxy-s10-plus-den-1.png"
         },
         {
           id: 2,
           name: "Samsung s10",
           gia: "6000000",
           status: true,
-          img:"https://cdn.fptshop.com.vn/Uploads/Originals/2019/2/21/636863636051023338_ss-galaxy-s10-plus-den-1.png"
+          img:"1https://cdn.fptshop.com.vn/Uploads/Originals/2019/2/21/636863636051023338_ss-galaxy-s10-plus-den-1.png"
         },
         {
           id: 3,
           name: "Samsung s11",
           gia: "7000000",
           status: true,
-          img:"https://cdn.fptshop.com.vn/Uploads/Originals/2019/2/21/636863636051023338_ss-galaxy-s10-plus-den-1.png"
+          img:"1https://cdn.fptshop.com.vn/Uploads/Originals/2019/2/21/636863636051023338_ss-galaxy-s10-plus-den-1.png"
         },
         {
           id: 4,
           name: "Samsung s12",
           gia: "8000000",
           status: true,
-          img:"https://cdn.fptshop.com.vn/Uploads/Originals/2019/2/21/636863636051023338_ss-galaxy-s10-plus-den-1.png"
+          img:"1https://cdn.fptshop.com.vn/Uploads/Originals/2019/2/21/636863636051023338_ss-galaxy-s10-plus-den-1.png"
         },
          {
           id: 5,
           name: "Samsung s13",
           gia: "9000000",
           status: false,
-          img:"https://cdn.fptshop.com.vn/Uploads/Originals/2019/2/21/636863636051023338_ss-galaxy-s10-plus-den-1.png"
+          img:"1https://cdn.fptshop.com.vn/Uploads/Originals/2019/2/21/636863636051023338_ss-galaxy-s10-plus-den-1.png"
         },
          {
           id: 6,
           name: "Samsung s14",
           gia: "10000000",
-          status: true,
-          img:"https://cdn.fptshop.com.vn/Uploads/Originals/2019/2/21/636863636051023338_ss-galaxy-s10-plus-den-1.png"
+          status: false,
+          img:"1https://cdn.fptshop.com.vn/Uploads/Originals/2019/2/21/636863636051023338_ss-galaxy-s10-plus-den-1.png"
         }
       ];
       let products_element = products.map((product, index)=>{

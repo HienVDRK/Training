@@ -5,7 +5,7 @@ render(){
   return (
   		<nav className="navbar navbar-inverse">
   			<div className="container-fluid">
-  				<a className="navbar-brand" href="#">Bai component</a>
+  				<a className="navbar-brand" href="#">ReactJS</a>
   				<ul className="nav navbar-nav">
   					<li className="active">
   						<a href="#">Trang chu</a>
